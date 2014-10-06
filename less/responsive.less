@@ -1,0 +1,38 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  
+  #primary-menu {
+  > li > a {
+      padding: 28px 20px 27px 20px;
+    }
+  }
+
+  #section-featured-project {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+  .jumbotron {
+    padding: 30px;
+    
+    h1 {
+      font-size: 42px;
+    }
+    
+    p {
+      font-size: @font-size-large;
+    }
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+  
+}
